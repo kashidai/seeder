@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family:小塚ゴシック Pr6N R;
+    color: #f0454e;
+}
+
+/*-----------------------header---------------------*/
+header {
+    height: 200px;
+    background-color: #FFBD4C;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo {
+
+}
+
+.logo img {
+    width: 240px;
+    height: 95px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    color: #f0454e;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.g-nav {
+    display: flex;
+
+}
+
+.g-nav li{
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 375px) {
+
+}
+/*------------------top_img-----------------------*/
+.top-img {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-img img {
+    height: 400px;
+    width: 800px;
+}
+
+@media screen and (max-width: 375px) {
+    .top-img img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+
+/*------------------top_works-----------------------*/
+.top-work-tittle{
+    display: flex;
+    justify-content: center;
+}
+
+
+.top-works {
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    height: 1200px;
+
+}
+
+.work-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+
+}
+
+.work-box{
+    width: 400px;
+    height: 500px;
+}
+
+.work-box img{
+    max-width: 100%;
+    height: 100%;
+}
+
+/*------------------top_project--------------------*/
+
+.project {
+    background-color: darkolivegreen;
+    height: 1000px;
+    display: flex;
+}
+
+
+/*-------------------smass-about------------------*/
+.small-about {
+    height: 300px;
+
+}
+
+
+/*------------------footer-------------------------*/
+footer {
+    height: 35px;
+    background-color: #f0454e;
+
+}
+
+hr {
+    height: 1px;
+    border: none;
+    border-top: 5px #f0454e solid;
+}
+
