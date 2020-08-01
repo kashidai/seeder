@@ -7,12 +7,13 @@
 h1 {
     font-family: 小塚ゴシック Pr6N R;
     color: #f0454e;
+    font-size: 48px;
 }
 
 /*-----------------------header---------------------*/
 header {
     height: 200px;
-    background-color: #FFBD4C;
+    /*background-color: #FFBD4C;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,13 +84,47 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 280px;
+    height: 300px;
+
+    position: relative;
 }
 
-.small-about-box{
+.small-about li a {
+    color: #f0454e;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.small-about-box {
     width: 77%;
     align-items: center;
-    justify-content: space-between;
+}
+
+.small-about-box p {
+    line-height: 2.0;
+}
+
+.small-about-p {
+    padding-top: 30px;
+}
+
+.small-about-box li {
+    list-style-type: none;
+}
+
+.small-about-box nav {
+    position: absolute;
+    right: 200px;
+    bottom: 30px;
+}
+
+.footer-nav {
+
+}
+
+.footer-nav-li {
+    display: flex;
+
 }
 
 /*-----------------top button------------------*/
@@ -155,10 +190,14 @@ hr {
     justify-content: center;
 }
 
+.top-work-tittle h1{
+   margin-top: 100px;
+}
+
 .top-works {
     display: flex;
     justify-content: center;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
     height: 1000px;
     align-items: center;
     flex-wrap: wrap;
@@ -182,11 +221,14 @@ hr {
 .top-project-tittle {
     display: flex;
     justify-content: center;
+}
 
+.top-project-tittle h1{
+    margin-top: 100px;
 }
 
 .top-project {
-    background-color: darkolivegreen;
+    /*background-color: darkolivegreen;*/
     height: 800px;
     display: flex;
     justify-content: center;
