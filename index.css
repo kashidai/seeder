@@ -407,7 +407,7 @@ h2 {
 .d-works-title {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -420,6 +420,20 @@ h2 {
     color: black;
     font-size: 36px;
 }
+
+.d-works-title2{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.d-works-title2 h1 {
+    color: black;
+    font-size: 36px;
+}
+
+
 
 .d-work-top {
     display: flex;
