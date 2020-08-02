@@ -299,12 +299,10 @@ h2 {
     justify-content: center;
 }
 
-.company-overview-box{
+.company-overview-box {
     width: 880px;
     margin-left: 40px;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*flex-direction: column;*/
+
 }
 
 .overview {
@@ -313,8 +311,7 @@ h2 {
 
 .company-overview {
     display: flex;
-    /*justify-content: flex-start;*/
-    margin-top:30px;
+    margin-top: 30px;
     margin-bottom: 100px;
     line-height: 1.7;
 }
@@ -323,14 +320,82 @@ h2 {
     margin-left: 60px;
 }
 
-/*.company-information-title {*/
 
-/*}*/
+/*--------------------------------------WORK-----------------------------------*/
+
+.work-title {
+    display: flex;
+    justify-content: center;
+}
+
+.pick-parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.pick-list {
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-flat-border {
+    display: inline-block;
+    width: 169px;
+    height: 44px;
+    text-decoration: none;
+    color: #f0454e;
+    border: solid 2px #f0454e;
+    text-align: center;
+    line-height: 44px;
+    transition: .4s;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-right: 20px;
+    letter-spacing: 2px;
+}
 
 
 
 
+.btn-flat-border:hover {
+    background: #f0454e;
+    color: white;
+}
 
+.category-parent {
+    display: flex;
+    justify-content: center;
 
+}
+
+.category-list {
+    display: flex;
+    justify-content: flex-start;
+    width: 77%;
+}
+
+.works-list-parent{
+    display: flex;
+    justify-content: center;
+    height: 1800px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.works-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 1800px;
+    width: 77%; /*width: 1080px;*/
+}
+
+.works-box{
+    width: 30%;
+}
 
 
