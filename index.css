@@ -10,6 +10,12 @@ h1 {
     font-size: 48px;
 }
 
+h3 {
+    font-family: 小塚ゴシック Pr6N R;
+    color: #f0454e;
+
+}
+
 /*-----------------------header---------------------*/
 header {
     height: 200px;
@@ -358,8 +364,6 @@ h2 {
 }
 
 
-
-
 .btn-flat-border:hover {
     background: #f0454e;
     color: white;
@@ -377,7 +381,7 @@ h2 {
     width: 77%;
 }
 
-.works-list-parent{
+.works-list-parent {
     display: flex;
     justify-content: center;
     height: 1800px;
@@ -385,7 +389,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.works-list{
+.works-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -394,8 +398,165 @@ h2 {
     width: 77%; /*width: 1080px;*/
 }
 
-.works-box{
+.works-box {
     width: 30%;
 }
 
+/*---------------------work-details--------------------------*/
 
+.d-works-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.category-title {
+    display: flex;
+    justify-content: center;
+}
+
+.d-works-title h1 {
+    color: black;
+    font-size: 36px;
+}
+
+.d-work-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.d-work-message {
+    display: flex;
+    justify-content: center;
+}
+
+.d-work-message-box {
+    width: 54%;
+}
+
+.d-work-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-img-list {
+    flex-direction: column;
+    width: 54%;
+}
+
+.gallery-img {
+    margin-top: 50px;
+}
+
+.d-work-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.d-work-line {
+    width: 54%;
+    height: 1px;
+    border: none;
+    border-top: 2px #f0454e solid;
+}
+
+.first-line {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.second-line {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.d-work-explanation-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.d-work-explanation-box {
+    display: flex;
+    width: 54%;
+    margin-left: 40px;
+    /*line-height: 1.7;*/
+
+}
+
+.brock {
+    width: 146px;
+    height: 17px;
+    text-align: center;
+    line-height: 17px;
+    background-color: #f0454e;
+    color: aliceblue;
+    font-size: 13px;
+    margin-top: 20px;
+
+}
+
+.brock2{
+    height: 17px;
+    line-height: 17px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.name{
+    line-height: 17px;
+}
+
+.d-work-explanation-second {
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.back-button {
+    display: inline-block;
+    width: 169px;
+    height: 44px;
+    text-decoration: none;
+    color: #f0454e;
+    border: solid 2px #f0454e;
+    text-align: center;
+    line-height: 44px;
+    transition: .4s;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    letter-spacing: 2px;
+}
+
+
+.back-button:hover {
+    background: #f0454e;
+    color: white;
+}
+
+.back-to-list-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.d-work-related-parent{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.d-work-related-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 700px;
+    width: 77%; /*width: 1080px;*/
+}
+
+.d-work-related-box{
+    width: 30%;
+}
