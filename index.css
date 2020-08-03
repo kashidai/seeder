@@ -574,3 +574,162 @@ h2 {
 .d-work-related-box{
     width: 30%;
 }
+
+/*--------------------------project-------------------------*/
+
+.project-category-title{
+    display: flex;
+    justify-content: center;
+}
+
+.project-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.project-title h1{
+    color: black;
+    font-size: 36px;
+}
+
+.project-top-img img{
+    width: 100%;
+}
+
+.project-first-text{
+    display: flex;
+    justify-content: center;
+}
+
+.first-text-box{
+    display: flex;
+    justify-content: center;
+    width: 765px;
+    margin-top:70px;
+    margin-bottom: 70px;
+}
+
+.first-text-box p{
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.headline-contents{
+    display: flex;
+
+}
+
+.headline-contents-2{
+    display: flex;
+}
+
+.headline-contents h1{
+    font-size: 36px;
+    padding-bottom: 30px;
+
+}
+
+.headline-text{
+    width: 50%;
+}
+
+.headline-text h1{
+
+}
+
+.headline-text p{
+    line-height: 1.7;
+}
+
+.headline-text-box{
+    width: 561px;
+    margin: 0 auto;
+}
+
+.headline-img{
+    width: 50%;
+}
+
+.headline-img img{
+    width: 100%;
+}
+
+.basic-information{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.basic-information-text{
+    display: flex;
+    justify-content: center;
+}
+
+.basic-information-text-box{
+    width: 830px;
+    line-height: 1.7;
+}
+.project-gallery-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.project-gallery-parent{
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-gallery-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 77%; /*width: 1080px;*/
+}
+
+.project-gallery-box{
+    width: 30%;
+}
+
+.project-line{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.project-line-detail{
+    width: 1097px;
+    height: 1px;
+    border: none;
+    border-top: 2px #f0454e solid;
+}
+
+.project-related-parent{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.project-related-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 77%; /*width: 1080px;*/
+}
+
+.project-related-box{
+    width: 30%;
+}
