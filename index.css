@@ -1,18 +1,29 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
 h1 {
-    font-family: 小塚ゴシック Pr6N R;
     color: #f0454e;
     font-size: 48px;
+    letter-spacing: 5px;
 }
 
 h3 {
-    font-family: 小塚ゴシック Pr6N R;
     color: #f0454e;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p{
 
 }
 
@@ -144,8 +155,8 @@ hr {
 .pagetop p {
     text-align: center;
     font-size: 20px;
-    letter-spacing: 5px;
-    font-family: 小塚ゴシック Pr6N R;
+    letter-spacing: 10px;
+
 }
 
 .pagetop a {
@@ -194,6 +205,7 @@ hr {
 .top-work-title {
     display: flex;
     justify-content: center;
+
 }
 
 .top-work-title h1 {
@@ -219,7 +231,8 @@ hr {
 }
 
 .top-work-box {
-    width: 30%;
+    /*width: 30%;*/
+
 }
 
 
@@ -421,7 +434,7 @@ h2 {
     font-size: 36px;
 }
 
-.d-works-title2{
+.d-works-title2 {
     display: flex;
     justify-content: center;
     margin-top: 70px;
@@ -432,7 +445,6 @@ h2 {
     color: black;
     font-size: 36px;
 }
-
 
 
 .d-work-top {
@@ -448,6 +460,8 @@ h2 {
 
 .d-work-message-box {
     width: 54%;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .d-work-gallery {
@@ -511,14 +525,14 @@ h2 {
 
 }
 
-.brock2{
+.brock2 {
     height: 17px;
     line-height: 17px;
     font-size: 13px;
     margin-top: 20px;
 }
 
-.name{
+.name {
     line-height: 17px;
 }
 
@@ -549,12 +563,12 @@ h2 {
     color: white;
 }
 
-.back-to-list-parent{
+.back-to-list-parent {
     display: flex;
     justify-content: center;
 }
 
-.d-work-related-parent{
+.d-work-related-parent {
     display: flex;
     justify-content: center;
     height: 800px;
@@ -562,7 +576,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.d-work-related-list{
+.d-work-related-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -571,114 +585,116 @@ h2 {
     width: 77%; /*width: 1080px;*/
 }
 
-.d-work-related-box{
+.d-work-related-box {
     width: 30%;
 }
 
 /*--------------------------project-------------------------*/
 
-.project-category-title{
+.project-category-title {
     display: flex;
     justify-content: center;
+    letter-spacing: 3px;
 }
 
-.project-title{
+.project-title {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     margin-bottom: 40px;
 }
 
-.project-title h1{
+.project-title h1 {
     color: black;
     font-size: 36px;
 }
 
-.project-top-img img{
+.project-top-img img {
     width: 100%;
 }
 
-.project-first-text{
+.project-first-text {
     display: flex;
     justify-content: center;
 }
 
-.first-text-box{
+.first-text-box {
     display: flex;
     justify-content: center;
     width: 765px;
-    margin-top:70px;
+    margin-top: 70px;
     margin-bottom: 70px;
 }
 
-.first-text-box p{
+.first-text-box p {
     font-size: 15px;
     line-height: 1.7;
 }
 
-.headline-contents{
+.headline-contents {
     display: flex;
 
 }
 
-.headline-contents-2{
+.headline-contents-2 {
     display: flex;
 }
 
-.headline-contents h1{
+.headline-contents h1 {
     font-size: 36px;
     padding-bottom: 30px;
 
 }
 
-.headline-text{
+.headline-text {
     width: 50%;
 }
 
-.headline-text h1{
+.headline-text h1 {
 
 }
 
-.headline-text p{
+.headline-text p {
     line-height: 1.7;
 }
 
-.headline-text-box{
+.headline-text-box {
     width: 561px;
     margin: 0 auto;
 }
 
-.headline-img{
+.headline-img {
     width: 50%;
 }
 
-.headline-img img{
+.headline-img img {
     width: 100%;
 }
 
-.basic-information{
+.basic-information {
     display: flex;
     justify-content: center;
     margin-top: 150px;
     margin-bottom: 100px;
 }
 
-.basic-information-text{
+.basic-information-text {
     display: flex;
     justify-content: center;
 }
 
-.basic-information-text-box{
+.basic-information-text-box {
     width: 830px;
     line-height: 1.7;
 }
-.project-gallery-title{
+
+.project-gallery-title {
     display: flex;
     justify-content: center;
     margin-top: 150px;
 }
 
-.project-gallery-parent{
+.project-gallery-parent {
     display: flex;
     justify-content: center;
     height: 1000px;
@@ -686,7 +702,7 @@ h2 {
     flex-wrap: wrap;
 }
 
-.project-gallery-list{
+.project-gallery-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -695,24 +711,24 @@ h2 {
     width: 77%; /*width: 1080px;*/
 }
 
-.project-gallery-box{
+.project-gallery-box {
     width: 30%;
 }
 
-.project-line{
+.project-line {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
 }
 
-.project-line-detail{
+.project-line-detail {
     width: 1097px;
     height: 1px;
     border: none;
     border-top: 2px #f0454e solid;
 }
 
-.project-related-parent{
+.project-related-parent {
     display: flex;
     justify-content: center;
     height: 200px;
@@ -721,7 +737,7 @@ h2 {
     margin-bottom: 100px;
 }
 
-.project-related-list{
+.project-related-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -730,6 +746,79 @@ h2 {
     width: 77%; /*width: 1080px;*/
 }
 
-.project-related-box{
+.project-related-box {
     width: 30%;
+}
+
+/*---------------------------hover-animation--------------------*/
+figure {
+    position: relative;
+    overflow: hidden;
+}
+
+figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: .3s;
+    transition: .3s;
+    opacity: 0;
+    line-height: 1.7;
+}
+
+figcaption h4 {
+    text-align: center;
+}
+
+figcaption p {
+    text-align: center;
+    margin-top: 40%;
+    margin-bottom: 30px;
+
+}
+
+
+figure:hover figcaption {
+    opacity: 1;
+    border: 2px solid #f0454e;
+}
+
+
+a:hover img {
+    opacity: 0.2;
+    /*filter: alpha(opacity=80);*/
+    /*!*-moz-opacity: 0.8;*!*/
+    /*-webkit-transition: 0.3s ease-in-out;*/
+    /*-moz-transition: 0.3s ease-in-out;*/
+    /*-o-transition: 0.3s ease-in-out;*/
+    /*transition: 0.3s ease-in-out;*/
+
+}
+
+.img-category {
+    width: 126px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: rgba(240,69,78, 1);
+    color: white;
+}
+
+.pick-up {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #f0454e;
+    color: white;
+    width: 83px;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+}
+
+.pick-up p {
+    font-size: 12px;
 }
