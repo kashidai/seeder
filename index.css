@@ -21,11 +21,9 @@ h3 {
 
 h4 {
     font-size: 18px;
+    letter-spacing: 4px;
 }
 
-p{
-
-}
 
 /*-----------------------header---------------------*/
 header {
@@ -773,22 +771,57 @@ figcaption h4 {
     text-align: center;
 }
 
-figcaption p {
+
+
+/*-------------------ホバーした時の文字表示位置各ページ-----------------------------*/
+.top-works figcaption p {
     text-align: center;
     margin-top: 40%;
     margin-bottom: 30px;
-
 }
 
+.top-project-box figcaption p {
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20px;
+}
+
+.pick-parent figcaption p{
+    margin-top: 40%;
+    margin-bottom: 30px;
+}
+
+.works-list-parent figcaption p{
+    margin-top: 30%;
+    margin-bottom: 30px;
+}
+
+.project-related-parent figcaption p{
+    margin-top: 15%;
+    margin-bottom: 20px;
+}
+
+.d-work-related-parent figcaption p{
+    margin-top: 30%;
+    margin-bottom: 30px;
+}
+
+/*----------------------------------------------------------------*/
+
+
+
+figure:hover{
+    border: 2px solid #f0454e;
+}
 
 figure:hover figcaption {
     opacity: 1;
-    border: 2px solid #f0454e;
+
 }
 
 
 a:hover img {
-    opacity: 0.2;
+    opacity: 0.1;
     /*filter: alpha(opacity=80);*/
     /*!*-moz-opacity: 0.8;*!*/
     /*-webkit-transition: 0.3s ease-in-out;*/
@@ -805,7 +838,10 @@ a:hover img {
     line-height: 20px;
     background: rgba(240,69,78, 1);
     color: white;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .pick-up {
     position: absolute;
@@ -822,3 +858,6 @@ a:hover img {
 .pick-up p {
     font-size: 12px;
 }
+
+
+
