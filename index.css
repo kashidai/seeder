@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -71,7 +71,7 @@ header li a {
 }
 
 /*------------------footer-------------------------*/
-footer {
+.copyright{
     height: 35px;
     background-color: #f0454e;
     display: flex;
@@ -79,7 +79,7 @@ footer {
     align-items: center;
 }
 
-footer p {
+.copyright p{
     color: white;
 }
 
@@ -641,16 +641,17 @@ h2 {
 .headline-contents h1 {
     font-size: 36px;
     padding-bottom: 30px;
+}
 
+.headline-contents-2 h1 {
+    font-size: 36px;
+    padding-bottom: 30px;
 }
 
 .headline-text {
     width: 50%;
 }
 
-.headline-text h1 {
-
-}
 
 .headline-text p {
     line-height: 1.7;
@@ -772,36 +773,33 @@ figcaption h4 {
 }
 
 
-
 /*-------------------ホバーした時の文字表示位置各ページ-----------------------------*/
 .top-works figcaption p {
-    text-align: center;
     margin-top: 40%;
     margin-bottom: 30px;
 }
 
 .top-project-box figcaption p {
-    text-align: center;
     margin-top: 20%;
     margin-bottom: 20px;
 }
 
-.pick-parent figcaption p{
+.pick-parent figcaption p {
     margin-top: 40%;
     margin-bottom: 30px;
 }
 
-.works-list-parent figcaption p{
+.works-list-parent figcaption p {
     margin-top: 30%;
     margin-bottom: 30px;
 }
 
-.project-related-parent figcaption p{
+.project-related-parent figcaption p {
     margin-top: 15%;
     margin-bottom: 20px;
 }
 
-.d-work-related-parent figcaption p{
+.d-work-related-parent figcaption p {
     margin-top: 30%;
     margin-bottom: 30px;
 }
@@ -809,14 +807,12 @@ figcaption h4 {
 /*----------------------------------------------------------------*/
 
 
-
-figure:hover{
+figure:hover {
     border: 2px solid #f0454e;
 }
 
 figure:hover figcaption {
     opacity: 1;
-
 }
 
 
@@ -836,7 +832,7 @@ a:hover img {
     height: 20px;
     text-align: center;
     line-height: 20px;
-    background: rgba(240,69,78, 1);
+    background: rgba(240, 69, 78, 1);
     color: white;
     margin-left: auto;
     margin-right: auto;
